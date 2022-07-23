@@ -20,7 +20,6 @@
   @import url("style.css");
   </style>
 
-
 </head>
 
 <body>
@@ -31,14 +30,13 @@
 		<div class="about-column-content">
       <div class="profile-pic">
         <img src="https://cakeplops.com/img/test-1.jpg" title="hey there" alt="hey there"></div>
-        <img id="logo-img" src="https://cakeplops.com/img/logo.png" alt="my logo">
-          <h2 style="width: 93%"> 
+          <h2 style="width: 93%; text-transform: uppercase;"> 
 			  <br>
-			  <a id="menu-1" class="menu-text" href="#What">What Are Cake Pops?</a>
+			  <a id="menu-1" class="menu-text" href="#what">What Are Cake Pops?</a>
         <br> 
-			  <a id="menu-2" class="menu-text" href="#Who">Who Are You?</a>
+			  <a id="menu-2" class="menu-text" href="#who">Who Are You?</a>
         <br>
-			  <a id="menu-3" class="menu-text" href="#How">Gimme Gimme</a></h2>
+			  <a id="menu-3" class="menu-text" href="#how">Gimme Gimme</a></h2>
             <br>
 		</div></div>
 	<section id="about">
@@ -57,7 +55,7 @@
 
   <hr>
 
-  <section id="What">
+  <section id="what">
     <div class="section-media">
       <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
         <div class="single-item">
@@ -90,20 +88,19 @@
 
   <hr>
 
-  <section id="Who">
+  <section id="who">
     <div class="section-media">
       <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
         <div class="single-item">
           <div>
-			    <img src="https://cakeplops.com/img/test-3.png" alt="" />
+			    <img src="https://cakeplops.com/img/test-3.jpg" alt="" />
           </div>
           <div>
-            <img src="https://cakeplops.com/img/test-2.png" alt="" />
+            <img src="https://cakeplops.com/img/test-2.jpg" alt="" />
           </div>
           <div>
-            <img src="https://cakeplops.com/img/test-1.png" alt="" />
+            <img src="https://cakeplops.com/img/test-1.jpg" alt="" />
           </div>
-
         </div>
       </div>
 		</div></div>
@@ -120,13 +117,46 @@
 
   <hr>
 
-  <section id="How">
+  <section id="how">
     <div class="section-media">
-      <div class="slide-container" style="margin: 0 auto; padding: 40px; width: 75%;">
-        <div class="single-item">
-        </div>
-      </div>
+      <script type="text/javascript">
+        var submitted = false;
+    </script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)"></iframe>
+    <div class=" codebox">
+        <form action=""
+            method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <div class="question-box">
+                <label class="form-label">Name:<span style="color: red;">*</span></label>
+                <br>
+                <input class="form-input" name="entry.2005620554" type="text" required />
+                <br>
+                <br><label class="form-label">Email or Phone:<span style="color: red;">*</span></label>
+                <br>
+                <input class="form-input" name="entry.1045781291" type="text" required />
+                <br>
+                <label class="form-label">Address:<span style="color: red;">*</span></label>
+                <br>
+                <input class="form-input" name="entry.1065046570" type="text" required />
+                <br>
+                <label class="form-label">Flavors and Quantities:<span style="color: red;">*</span></label>
+                <br>
+                <input class="form-input" name="entry.839337160" type="text" />
+                <br>
+                <br>
+            </div>
+            <input type="submit" id="submit" value="form!" onclick="show()" />
+
+        </form>
     </div>
+    <div id="blackout" onclick="off()">
+        <div id="popup">
+            <div class="modal-text"><h2>Thanks for submitting!</h2> Would you like to submit another?</div>
+            <a class="form-popup-button" href="https://cakeplops.com">go home</a>
+            <a class="form-popup-button" href="https://cakeplops.com/#how">submit another</a>
+        </div>
+    </div>
+            </div>
     <div class="section-text">
       <div class="section-text-wrapper">
         <h1><span style="color: #ffeb0d">GIMME THE YUMMY THINGS</span> </h1>
@@ -137,8 +167,6 @@
   </section>
 
   <hr>
-
-
 
   <div class="footer">
 
@@ -155,6 +183,17 @@
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
   </script>
 
+<script>
+  function show() {
+      document.getElementById("popup").style.display = "block";
+      document.getElementById("blackout").style.display = "flex";
+  }
+
+  function off() {
+      document.getElementById("popup").style.display = "none";
+      document.getElementById("blackout").style.display = "none";
+  }
+</script>
 
 
   <script>
