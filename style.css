@@ -2,35 +2,143 @@
 Welcome to my attempt at a stylesheet! Let's see what I can do with this boy.
 */
 @font-face {
-  font-family: 'Avenir';
-  src: url('https://stephenkender.com/fonts/AvenirNextLTPro-Regular.otf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('https://stephenkender.com/fonts/AvenirNextLTPro-Bold.otf');
-  font-weight: 600;
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Bold.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('https://stephenkender.com/fonts/Poppins-Medium.ttf') format("truetype");
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src:url('https://cakeplops.com/fonts/Axiforma-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Poppins';
-  src: url('https://stephenkender.com/fonts/Poppins-ExtraBold.ttf') format("truetype");
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Regular.ttf') format('truetype');
+  font-weight: normal;  
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('https://cakeplops.com/fonts/Axiforma-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src:url('https://cakeplops.com/fonts/Axiforma-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
 }
 
 html {
@@ -41,7 +149,7 @@ html {
 
 body {
   margin: 0px;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Axiforma', sans-serif;
   font-weight: 400;
 }
 
@@ -70,8 +178,8 @@ h1 {
   font-size: 250%;
   color: #111111;
   text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-family: 'Axiforma', sans-serif;
+  font-weight: 900;
   line-height: 1.15em;
   padding: 0px 10px 0px 10px;
 }
@@ -80,7 +188,7 @@ h2 {
   font-size: 2.4vw;
   color: #111111;
   padding: 4vh 10px 0px 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Axiforma', sans-serif;
   font-weight: 600;
 	line-height: 120%;
 }
@@ -91,7 +199,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding: 0px 10px 0px 10px;
-  font-family: 'Avenir', sans-serif;
+  font-family: 'Axiforma', sans-serif;
   font-size: 25px;
 }
 #about  {
