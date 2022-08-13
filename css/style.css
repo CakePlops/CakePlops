@@ -271,6 +271,8 @@ p {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #F33033;
 }
 
 .intro-section-text {
@@ -787,11 +789,14 @@ hr {
     padding-right: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    background-color: #FFFFFF;
+    border-bottom: 10px solid #E4494B;
 }
 
 .intro-section-text {
     max-width: 80%;
-	margin: auto;
+    margin: auto;
+    border-radius: 20px;
 }
 
 .intro-section-text p{
