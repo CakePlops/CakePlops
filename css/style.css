@@ -211,9 +211,9 @@ p {
     height: auto;
     padding-top: 150px;
     padding-bottom: 50px;
-    width: 60%;
+    width: 70%;
     margin: auto;
-	max-width: 1600px;
+    max-width: 1600px;
 }
 
 .about-column {
@@ -273,6 +273,7 @@ p {
     padding-left: 50px;
     background-color: #FFFFFF;
     border-bottom: 10px solid #F33033;
+    max-width: 1600px;
 }
 
 .intro-section-text {
@@ -737,6 +738,7 @@ hr {
   #about {
     padding-top: 0px;
     height: 650px;
+    max-width: 1600px;
   }
 
   h1 {
@@ -791,6 +793,7 @@ hr {
     padding-left: 50px;
     background-color: #FFFFFF;
     border-bottom: 10px solid #E4494B;
+    max-width: 1600px;
 }
 
 .intro-section-text {
@@ -806,7 +809,7 @@ hr {
 }
 
 .intro-section-text h1 {
-  font-size: 11vw !important;
+    font-size: 9vw !important;
 }
 
   .colorchange-text h1 {
