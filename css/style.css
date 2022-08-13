@@ -1,3 +1,4 @@
+@import url("../webfonts/Axiforma_Medium/stylesheet.css");
 /*
 Welcome to my attempt at a stylesheet! Let's see what I can do with this boy.
 */
@@ -142,15 +143,16 @@ Welcome to my attempt at a stylesheet! Let's see what I can do with this boy.
 }
 
 html {
-  background: #fafafa;
-  -webkit-font-smoothing: antialiased;
-  text-align: left;
+    background-color: #fafbfc;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
 }
 
 body {
-  margin: 0px;
-  font-family: 'Axiforma', sans-serif;
-  font-weight: 400;
+    margin: 0px;
+    font-family: 'Axiforma', sans-serif;
+    font-weight: 400;
+    background-color: #fafbfc;
 }
 
 a {
@@ -185,12 +187,15 @@ h1 {
 }
 
 h2 {
-  font-size: 2.4vw;
-  color: #111111;
-  padding: 4vh 10px 0px 10px;
-  font-family: 'Axiforma', sans-serif;
-  font-weight: 600;
-	line-height: 120%;
+    font-size: 2.4vw;
+    color: #111111;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 35px;
+    font-family: 'Axiforma', sans-serif;
+    font-weight: 600;
+    line-height: 120%;
 }
 
 p {
@@ -203,8 +208,12 @@ p {
   font-size: 25px;
 }
 #about  {
-  height: 100vh;
-  padding: 0 !important;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    width: 60%;
+    margin: auto;
+	max-width: 1600px;
 }
 
 .about-column {
@@ -236,11 +245,13 @@ p {
 }
 
 .profile-pic {
-  width: 75%;
-	height: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+    width: 75%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    padding-top: 25px;
 }
 
 #logo-img {
@@ -250,11 +261,16 @@ p {
 }
 
 .intro-section-wrapper {
-  width: 75%;
-  height: 69%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 69%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .intro-section-text {
@@ -275,19 +291,21 @@ p {
 }
 
 .intro-section-text h1 {
-  font-size: 6vw !important;
-  line-height: 120% !important;
-  margin: 0;
-  padding-bottom: 15px;
-  text-align: center;
-  color: #444;
-  letter-spacing: 3px;
+    font-size: 6vw !important;
+    line-height: 120% !important;
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #444;
+    letter-spacing: 3px;
 }
 
 .colorchange-text {
-  animation-name: changeColor;
-  animation-iteration-count: infinite;
-  animation-duration: 20s;
+    animation-name: changeColor;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .menu-text {
@@ -301,8 +319,8 @@ p {
 }
 
 #menu-2 {
-	color: #275fff;
-	transition: all 0.3s ease;
+    color: #A910EC;
+    transition: all 0.3s ease;
 }
 
 #menu-3 {
@@ -381,12 +399,14 @@ p {
 }
 
 .question-box {
-  display: block;
-  box-shadow: 3px 3px 9px #0000004d;
-  background: #fff;
-  padding: 40px;
-  margin-bottom: 50px;
-  border-radius: 15px 15px 0 0;
+    display: block;
+    box-shadow: 0 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 0px;
 }
 
 .question-bar {
@@ -404,29 +424,29 @@ p {
 }
 
 .form-label {
-  font-family: "industry", sans-serif;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 1.5em;
-  cursor: text;
+    font-family: "Axiforma Medium";
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.2em;
+    cursor: text;
 }
 
 .form-input {
-  -webkit-appearance: none;
-  width: 40%;
-  height: 50px;
-  border-radius: .25em .25em 0 0;
-  font-family: "Special Elite";
-  text-align: left;
-  font-size: 20px;
-  background-color: #eee;
-  margin-bottom: 30px;
-  padding-left: 13px;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
-  border-bottom: 4px solid;
-  transition: all .25s ease-in-out;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 50px;
+    border-radius: .25em .25em 0 0;
+    font-family: "Special Elite";
+    text-align: left;
+    font-size: 20px;
+    background-color: #eee;
+    margin-bottom: 30px;
+    padding-left: 13px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 4px solid;
+    transition: all .25s ease-in-out;
 }
 
 .form-input:focus {
@@ -565,26 +585,38 @@ p {
 }
 
 section {
-  width: 70%;
-  margin: 0 0 0 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
+    width: 100%;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: auto;
+    max-width: 1600px;
+    flex-direction: column;
 }
 
 section:nth-of-type(even) {
-  flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-media {
-  width: 50%;
-  height: auto;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-	flex-flow: column
+    width: 80%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-right: auto;
+    max-width: 1600px;
+    margin-left: auto;
 }
 
 .section-media>img {
@@ -592,13 +624,16 @@ section:nth-of-type(even) {
 }
 
 .section-text {
-  width: 50%;
-  height: auto;
-  display: flex;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-  padding: 200px 0;
+    width: 80%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 200px;
 }
 
 .section-text-wrapper {
@@ -610,7 +645,7 @@ section:nth-of-type(even) {
     line-height: 3.75rem;
     margin: 0;
     padding-bottom: 25px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
     max-width: none;
 }
@@ -623,21 +658,22 @@ section:nth-of-type(even) {
 }
 
 hr {
-  width: 45%;
-  color: #35353566;
-  margin: 0 auto 0 42.5%;
+    width: 70%;
+    color: #35353566;
+    margin: 0 auto 0 auto;
 }
 
 .footer {
-	width: 70%;
-  margin: 0 0 0 30%;
-  text-align: center;
-  padding-bottom: 80px;
-  height: auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  padding-top: 120px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 80px;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 120px;
+    max-width: 1600px;
 }
 
 .single-item p {
@@ -728,19 +764,29 @@ hr {
   }
 
   .profile-pic {
-	width: 80%;
-	height: auto;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: block;
   }
 
   .profile-pic img {
     max-height: 200px;
-    width: auto;
+    width: 100%;
     height: auto;
   }
 	
 .intro-section-wrapper {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 
 .intro-section-text {
@@ -749,9 +795,9 @@ hr {
 }
 
 .intro-section-text p{
-  font-size: 20px;
-margin: auto 0;
-padding-bottom: 25px;
+    font-size: 35px;
+    margin: auto 0;
+    padding-bottom: 25px;
 }
 
 .intro-section-text h1 {
@@ -771,16 +817,24 @@ padding-bottom: 25px;
 
   section {
     width: 100%;
-    margin: 100px auto;
-    display: block;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    display: flex;
     height: auto;
     padding-bottom: 0px;
+    max-width: 1600px;
+    justify-content: center;
   }
 
   .section-media {
-    width: 100%;
+    width: 80%;
     min-height: 25vh;
     height: auto;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .section-media>img {
@@ -792,16 +846,14 @@ padding-bottom: 25px;
   }
 
   .section-text {
-    width: 100%;
+    width: 80%;
     height: auto;
-    text-align: center;
     min-height: 45vh;
   }
 
   .section-text-wrapper h1 {
     font-size: 8vw;
     line-height: 120%;
-    text-align: center;
     padding-bottom: 30px;
     width: auto;
   }
