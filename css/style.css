@@ -728,6 +728,10 @@ hr {
 
 
 @media screen and (max-width: 1300px) {
+	
+	body {
+		background-size: 300% auto;
+	}
   .about-column {
     width: 100%;
     height: auto;
