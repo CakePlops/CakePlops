@@ -67,9 +67,10 @@ body {
     color: #292121;
     background-color: #fafbfc;
     background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: 1600px auto;
+    background-repeat: repeat-y;
+    background-size: 100% auto;
     background-position: center 0%;
+    background-image: url(../img/pops_bg.png);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -653,8 +654,8 @@ pre code {
 .col-xl-auto {
     position: relative;
     width: 50%;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
     border-radius: 15px;
     border-left-width: 19px;
     border-right-width: 19px;
@@ -10258,3 +10259,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+@media screen and (max-width:1300px){
+.row .col-xl-3 {
+    width: 100%;
+}
+
+}
